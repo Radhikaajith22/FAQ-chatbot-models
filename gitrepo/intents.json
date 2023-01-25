@@ -1,0 +1,96 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "Which items do you have?",
+        "What kinds of items are there?",
+        "What do you sell?"
+      ],
+      "responses": [
+        "We sell coffee,tea and other confectionary",
+        "We have coffee,tea and some delicious snacks!"
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Are you cash only?"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard and Paypal",
+        "We accept most major credit cards, and Paypal"
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "How long does delivery take?",
+        "How long does shipping take?",
+        "When do I get my delivery?"
+      ],
+      "responses": [
+        "Delivery takes 2-4 hrs dependng on the venue",
+        "Shipping takes 2-4 hrs depending on the venue"
+      ]
+    },
+    {
+      "tag": "menu",
+      "patterns": [
+        "what is  the special for today?",
+        "what can i get today?",
+        "whats the special for today?"
+      ],
+      "responses": [
+        "You could try our CHERRY AMARETTO DONUT ",
+        "You could try our DOLCE DU LECHE",
+        "You could try our CREAM CHEESE DONUT",
+        "You could try our LEMONCELLO DONUT ",
+        "You could try our HAZELNUT NUTELLA DONUT ",
+        "You could try our MATCHA DONUT ",
+        "You could try our CHOCOLATE GANACHE DONUT  ",
+        "You could try our OREO DONUT ",
+        "You could try our IRISH CREAM DONUT ",
+        "You could try our PEANUT DONUT ",
+        "You could try our MAPLE BACON DONUT ",
+        "You could try our CHOCOLATE HOKKAIDO CUPCAKE ",
+        "You could try our VANILLA HOKKAIDO CUPCAKE "
+      ]
+    }
+    
+  ]
+}
